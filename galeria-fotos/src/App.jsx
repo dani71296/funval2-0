@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { fetchImages } from "./assets/api/pexels";
 import Header from "./assets/components/header";
 import ImageGrid from "./assets/components/ImageGrid";/* generalmente nombres con mayusculas al inicio */
-
+/*  prueba para volver a sunir a git */
 export default function App() {
   const [images, setImages] = useState([]);
   

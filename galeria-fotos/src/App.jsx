@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { fetchImages } from "./assets/api/pexels";
 import Header from "./assets/components/header";
-import ImageGrid from "./assets/components/ImageGrid";
+import ImageGrid from "./assets/components/ImageGrid";/* generalmente nombres con mayusculas al inicio */
 
 export default function App() {
   const [images, setImages] = useState([]);

@@ -28,7 +28,7 @@ export default function GuestModal({
       {/* Overlay */}
       <div
         id="overlay"
-        className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-40 z-40"
+        className="fixed top-0 left-0 w-full h-full bg-gray-950/20 z-40" /* para aplicar modal bg-gray950/20 claveeee */
         onClick={() => setModalVisible(false)}
       ></div>
 
@@ -37,7 +37,7 @@ export default function GuestModal({
         id="guest-panel"
         className="fixed top-0 left-0 w-full h-1/2 bg-white shadow-md z-50 flex flex-col items-center justify-start pt-16 gap-6"
       >
-        <div className="flex gap-2 bg-white rounded-xl shadow border border-gray-300 p-2 max-w-4xl w-full divide-x divide-gray-300">
+        <div className="flex gap-2 bg-white rounded-xl shadow border border-gray-300p-2 max-w-4xl w-full divide-x divide-gray-300">
           {/* Add Location input desktop */}
           <div className="px-4 py-1 relative">
             <input
